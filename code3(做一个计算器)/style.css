@@ -1,0 +1,24 @@
+.wrap {
+  display: inline-block;
+}
+.output {
+  height: 3em;
+  border: 1px solid red;
+  position: relative;
+}
+.wrap .button {
+  width: 3em;
+  height: 3em;
+}
+.wrap .button.text-clear {
+  width: 9em;
+}
+.wrap .button.text-0 {
+  width: 6em;
+}
+.wrap .output span {
+  position: absolute;
+  right: .2em;
+  bottom: .2em;
+  font-size: 30px;
+}
